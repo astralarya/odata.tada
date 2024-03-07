@@ -1,2 +1,2 @@
 # odata.tada
-🪄 Magical SQL query engine for TypeScript
+🪄 Magical OData query engine for TypeScript

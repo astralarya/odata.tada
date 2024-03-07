@@ -1,0 +1,31 @@
+{
+  "name": "odata.tada",
+  "version": "0.0.0",
+  "description": "🪄 Magical OData query engine for TypeScript",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "test": "yarn test",
+    "build": "yarn tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astralarya/odata.tada.git"
+  },
+  "keywords": [
+    "odata",
+    "typescript"
+  ],
+  "author": "Mara Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astralarya/odata.tada/issues"
+  },
+  "homepage": "https://github.com/astralarya/odata.tada#readme",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
