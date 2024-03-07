@@ -1,12 +1,12 @@
 export type Primitive = string | number | boolean | undefined | null;
 
-export function sql(
+export function odata(
   strings: TemplateStringsArray,
   ...values: Primitive[]
 ): [string, Primitive[]] {
   if (!isTemplateStringsArray(strings) || !Array.isArray(values)) {
     throw new TypeError(
-      "It looks like you tried to call `sql` as a function. Make sure to use it as a tagged template.\n\tExample: sql`SELECT * FROM users`, not sql('SELECT * FROM users')",
+      "It looks like you tried to call `odata` as a function. Make sure to use it as a tagged template.\n\tExample: odata`Users(${id})`, not odata(`Users(${id})`)",
     );
   }
 
